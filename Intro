@@ -1,0 +1,6 @@
+(base) quanah:$ cd /lustre/scratch/jenjense/200mammals
+(base) quanah:/lustre/scratch/jenjense/200mammals$ ls
+round2_complete  round3_complete
+(base) quanah:/lustre/scratch/jenjense/200mammals$ cd /lustre/scratch/rirising
+(base) quanah:/lustre/scratch/rirising$ mkdir testing
+(base) quanah:/lustre/scratch/rirising$ 
