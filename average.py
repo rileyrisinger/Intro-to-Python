@@ -16,3 +16,11 @@ for n in range(num):
 #now calculate average
 avg = total_sum/num
 print('The average of ', num, ' numbers equals :', avg)
+
+#########################################
+
+#import module that can automatically calculate the average
+
+import statistics
+avg = statistics.mean(range(1,21))
+print(avg)
