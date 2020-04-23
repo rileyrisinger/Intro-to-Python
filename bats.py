@@ -6,4 +6,4 @@ newspeciesb = (speciesb1[0:3].upper() + speciesb2[0:3].upper())
 newspeciesc = (speciesc1[0:3].upper() + speciesc2[0:3].upper())
 
 answer = "There are three species of bats: "
-print( "There are three species of bats: ", '\n', newspeciesa, '/n', newspeciesb, '\n', newspeciesc)
+print( "There are three species of bats: ", '\n', newspeciesa, '\n', newspeciesb, '\n', newspeciesc)
