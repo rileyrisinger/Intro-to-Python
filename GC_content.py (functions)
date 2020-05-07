@@ -1,0 +1,37 @@
+# GC content
+# Riley Risinger
+# April 20, 2020
+# Function Assignement
+
+# Calculate GC content with a function script
+
+
+# 1. Create a random DNA sequence that is 5000 bp in length (make sure no spaces)
+import random
+bases = ['A', 'G', 'C', 'T']
+sequence=random.choices(bases, k=5000)
+DNA_seq = ''.join(sequence)
+print("The 5000 bp random DNA sequence is \n", DNA_seq)
+
+# 2. "Break" into smaller 100bp pieces
+bp=DNA_seq[bp:bp+100]
+smaller_seq=[]
+for bp in range (0, len(DNA_seq), 100):
+        smaller_seq.append(bp)
+print("The smaller sequences of 100bp in length are: \n", smaller_seq)
+
+# 3. Calculate the GC content for each smaller sequence
+def GC_content(sequence):
+        G=sequence.count("G")
+        A=sequence.count("A")
+        C=sequence.count("C")
+        T=sequence.count("T")
+        GC=(G+C)/(G+A+C+T)
+        return GC
+
+GC_content_smaller=[]
+for i in smaller_seq:
+        GC_content(i)
+
+print("The GC content of the smaller sequence fragments is: \n", GC_content_smaller)
+
